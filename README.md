@@ -50,4 +50,27 @@ function whoAmI() {
 // name;
 ```
 
+```javascript
+// example of object.
+
+var Person = {
+    name: 'Israel',
+    lastname: 'Morales',
+    sayName: function() {
+         // return this.name + ' ' + this.lastname;
+         return `${this.name} ${this.lastname}`
+    }
+}
+
+console.info('Important info information');
+
+console.log(Person);
+
+console.dir(Person);
+
+console.warn('Warning');
+
+console.error('Error');
+```
+
 
