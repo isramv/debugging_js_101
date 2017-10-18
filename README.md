@@ -4,6 +4,7 @@
 
 - [1_0_whoAmI:](#1_0_whoami)
 - [1_1_console.log](#1_1_consolelog)
+- [1_2_other_console_methods](#1_2_other_console_methods)
 
 
 # 1_0_whoAmI
@@ -49,6 +50,7 @@ function whoAmI() {
 // numero;
 // name;
 ```
+# 1_2_other_console_methods
 
 ```javascript
 // example of object.
