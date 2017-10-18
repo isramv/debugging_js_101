@@ -5,6 +5,7 @@
 - [1_0_whoAmI:](#1_0_whoami)
 - [1_1_console.log](#1_1_consolelog)
 - [1_2_other_console_methods](#1_2_other_console_methods)
+- [2_0_expressions](#2_0_expressions)
 
 
 # 1_0_whoAmI
@@ -74,5 +75,15 @@ console.warn('Warning');
 
 console.error('Error');
 ```
+# 2_0_expressions
 
+```javascript
+var numero = 1;
+
+// console.log(typeof numero === 'number')
+
+// console.log(numero >= 1);
+
+// console.log(numero > 5);
+```
 
