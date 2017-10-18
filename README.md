@@ -7,7 +7,7 @@
 - [1_2_other_console_methods](#1_2_other_console_methods)
 - [2_0_expressions](#2_0_expressions)
 - [2_1_watch_and_breakpoints](#2_1_watch_and_breakpoints)
-- 
+- [2_2_conditional_breakpoints](#2_2_conditional_breakpoints)
 
 
 # 1_0_whoAmI
