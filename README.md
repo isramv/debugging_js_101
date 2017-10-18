@@ -121,5 +121,5 @@ numeros_array.forEach(function(numero) {
 ```
 
 # Extra resources
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
-https://github.com/getify/You-Dont-Know-JS/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+- https://github.com/getify/You-Dont-Know-JS/
