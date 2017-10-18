@@ -8,6 +8,7 @@
 - [2_0_expressions](#2_0_expressions)
 - [2_1_watch_and_breakpoints](#2_1_watch_and_breakpoints)
 - [2_2_conditional_breakpoints](#2_2_conditional_breakpoints)
+- [3_1_scopes](#3_1_scopes)
 
 
 # 1_0_whoAmI
@@ -118,6 +119,27 @@ numeros_array.forEach(function(numero) {
 
 // clean format.
 // numero === 3 in line 5
+```
+
+# 3_1_scopes
+
+```javascript
+var a_scope_description = 'Outer scope';
+
+a_scope_description;
+
+function simpleFunction() {
+
+    var a_scope_description = 'Inner scope';
+
+    a_scope_description;
+
+};
+
+simpleFunction();
+
+// Breakpoint: in line 3 and 9.
+// Watch: a_scope_description
 ```
 
 # Extra resources
