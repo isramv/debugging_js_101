@@ -7,6 +7,7 @@
 - [1_2_other_console_methods](#1_2_other_console_methods)
 - [2_0_expressions](#2_0_expressions)
 - [2_1_watch_and_breakpoints](#2_1_watch_and_breakpoints)
+- 
 
 
 # 1_0_whoAmI
@@ -101,3 +102,24 @@ numero = 3;
 // click on line 5 and execute code.
 ```
 
+# 2_2_conditional_breakpoints
+
+```javascript
+var numeros_array = [1,2,3,4,5];
+
+numeros_array.forEach(function(numero) {
+    numero;
+})
+
+// jQuery version.
+// $(numeros_array).each(function(numero) {
+//    numero;
+// });
+
+// clean format.
+// numero === 3 in line 5
+```
+
+# Extra resources
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+https://github.com/getify/You-Dont-Know-JS/
