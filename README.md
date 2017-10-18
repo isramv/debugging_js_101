@@ -6,6 +6,7 @@
 - [1_1_console.log](#1_1_consolelog)
 - [1_2_other_console_methods](#1_2_other_console_methods)
 - [2_0_expressions](#2_0_expressions)
+- [2_1_watch_and_breakpoints](#2_1_watch_and_breakpoints)
 
 
 # 1_0_whoAmI
@@ -85,5 +86,18 @@ var numero = 1;
 // console.log(numero >= 1);
 
 // console.log(numero > 5);
+```
+
+# 2_1_watch_and_breakpoints
+
+```javascript
+// basic breakpoint.
+
+var numero;
+numero = 1;
+numero = 2;
+numero = 3;
+
+// click on line 5 and execute code.
 ```
 
