@@ -10,6 +10,7 @@
 - [2_2_conditional_breakpoints](#2_2_conditional_breakpoints)
 - [3_1_scopes](#3_1_scopes)
 - [3_2_call_stack](#3_2_call_stack)
+- [4_0_dom_breakpoints](#4_0_dom_breakpoints)
 
 
 # 1_0_whoAmI
@@ -160,6 +161,22 @@ function thirdCall() {
 
 firstCall();
 ```
+
+# 4_0_dom_breakpoints
+
+```javascript
+// we add the dom breakpoint in Elements
+
+// the following code is going to change the color of the text.
+
+$(document).on('click', 'h1', function(evt) {
+    evt.stopPropagation();
+    evt.preventDefault();
+    $(this).css('color', 'blue');
+});
+```
+
+
 
 # Extra resources
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
