@@ -218,3 +218,4 @@ function listBreeds(dataArray) {
 # Extra resources
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - https://github.com/getify/You-Dont-Know-JS/
+- http://es6-features.org/
