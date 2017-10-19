@@ -9,6 +9,7 @@
 - [2_1_watch_and_breakpoints](#2_1_watch_and_breakpoints)
 - [2_2_conditional_breakpoints](#2_2_conditional_breakpoints)
 - [3_1_scopes](#3_1_scopes)
+- [3_2_call_stack](#3_2_call_stack)
 
 
 # 1_0_whoAmI
@@ -140,6 +141,24 @@ simpleFunction();
 
 // Breakpoint: in line 3 and 9.
 // Watch: a_scope_description
+```
+
+# 3_2_call_stack
+
+```javascript
+function firstCall() {
+    secondCall();
+}
+
+function secondCall() {
+    thirdCall();
+}
+
+function thirdCall() {
+    console.log('wooow');
+}
+
+firstCall();
 ```
 
 # Extra resources
