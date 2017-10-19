@@ -11,7 +11,7 @@
 - [3_1_scopes](#3_1_scopes)
 - [3_2_call_stack](#3_2_call_stack)
 - [4_0_dom_breakpoints](#4_0_dom_breakpoints)
-
+- [4_2_ajax](#4_2_ajax)
 
 # 1_0_whoAmI
 
@@ -176,7 +176,44 @@ $(document).on('click', 'h1', function(evt) {
 });
 ```
 
+# 4_2_ajax
 
+```javascript
+// Dogs API
+
+$.ajax({
+    url: 'https://dog.ceo/api/breeds/list',
+    type: 'GET'
+}).done(function(data) {
+//     data;
+    if (data.status === 'success') {
+        console.log(data.message);
+        listBreeds(data.message);
+    }
+}).fail(function(data) {
+//     data;
+    if (data.status !== 'success') {
+        console.error('Huge error');
+    }
+});
+
+function listBreeds(dataArray) {
+    var items = '';
+
+//     dataArray.forEach(function(item) {
+//         items = items + `<li>${item}</li>`;
+//     });
+
+    var result = dataArray.map(function(item) {
+        return `<li>${item}<\/li>`;
+    });
+
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+    // http://es6-features.org/#StringInterpolation
+
+    $('.dog-list').append(result);
+}
+```
 
 # Extra resources
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
