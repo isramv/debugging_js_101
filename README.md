@@ -216,6 +216,8 @@ function listBreeds(dataArray) {
 ```
 
 # Extra resources
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - https://github.com/getify/You-Dont-Know-JS/
 - http://es6-features.org/
+- http://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&code_lz=DYUwLgBAFizA9hAvBAFAOwIYFsQEpkA-CAbwCgIIBjedAZ3lADoEBzVAAwAlYEIASEllwBfDnjIiyoSMJDIIAcgCWdAE6ZYigNxkyMOPAw58egG6Y1EOmDXL0rBR2wBPCHIiqAXAKEmxQA&debug=false&circleciRepo=&evaluate=true&lineWrap=false&presets=es2015%2Creact&targets=&version=6.26.0
